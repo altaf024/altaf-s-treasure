@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Caveat&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Pacifico&family=Poppins:wght@100;200;300&family=Rajdhani:wght@300&family=Roboto:wght@100&family=Satisfy&family=Shadows+Into+Light&family=Zeyada&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    height: 100vh;
+}
+/* navbar strats */
+nav
+{
+    width:100%;
+    height: 15vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+}
+nav img
+{
+    margin-right: auto;
+    cursor: pointer;
+    padding: 0px 50px;
+}
+
+nav ul li
+{
+    display: inline; 
+    margin-right:20px ;     
+}
+
+nav button
+{
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    font-size: large;
+}
+nav button:hover 
+{
+    background-color: chocolate;
+    border-radius: 10px;
+    color: white;
+}
+button:hover .pic
+{
+    transform: scale(1.3);
+}
+.active
+{
+    background-color: chocolate;
+    border-radius: 10px; 
+    color: white;
+}
+nav ul
+{
+    margin-right: 300px;
+}
+
+/* navbar end  */
+
+/* content start  */
+.content
+{
+    width:100%;
+    height: 85vh;
+    background-image: linear-gradient(-75deg,rgb(144, 130, 130),rgb(61, 94, 113),rgb(34, 69, 151));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.back
+{
+    width: 70%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 7px 7px 10px;
+}
+.pic
+{
+    width: 40%;
+    height: 500px;
+    background-image: url("file:///C:/ALTAF's%20TREASURE/pic1.jpg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+    cursor: pointer;
+    background-position: bottom;
+}
+.bio
+{
+    width: 60%;
+    height: 500px;
+    color: white;
+}
+h1
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: poppins;
+    margin: 15px;
+}
+p
+{
+    font-size: 20px;
+    font-family: poppins;
+    text-transform: capitalize;
+    margin: 15px;
+}
+.bio button
+{
+    margin: 50px;
+    height: 20px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+    font-family: poppins;
+    color: red;
+    font-size: 18px;
+    border-color: red;
+}
+.bio a
+{
+    margin: 100px;
+}
+
+
+/* content end  */

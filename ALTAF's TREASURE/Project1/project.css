@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Caveat&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Pacifico&family=Poppins:wght@100;200;300&family=Rajdhani:wght@300&family=Roboto:wght@100&family=Satisfy&family=Shadows+Into+Light&family=Zeyada&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    height: 100vh;
+}
+
+/* navbar strats */
+
+nav
+{
+    width:100%;
+    height: 15vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+}
+nav img
+{
+    margin-right: auto;
+    cursor: pointer;
+    padding: 0px 50px;
+}
+
+nav ul li
+{
+    display: inline; 
+    margin-right:20px ;     
+}
+
+nav button
+{
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    font-size: large;
+}
+nav button:hover
+{
+    background-color: chocolate;
+    border-radius: 10px;
+    color: white;
+}
+.active
+{
+    background-color: chocolate;
+    border-radius: 10px; 
+    color: white;
+}
+nav ul
+{
+    margin-right: 300px;
+}
+
+/* navbar end  */
+
+/* content strats  */
+
+.content
+{
+    width:100%;
+    height: 85vh;
+    background-image: linear-gradient(-75deg,rgb(144, 130, 130),rgb(61, 94, 113),rgb(34, 69, 151));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.body2
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.back1,.back2,.back3
+{
+    width: 400px;
+    height: 550px;
+    margin: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    box-shadow: 7px 7px 10px;
+}
+.pr1,.pr2,.pr3
+{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://media.istockphoto.com/id/506598339/vector/blood-donation.jpg?s=1024x1024&w=is&k=20&c=pXiNMB-5RfWfko6aprZFI8AmgDxBvW7EKkkwe9QvE3k=");
+    background-size: cover;
+    margin: 45px;
+}
+.pr2
+{   
+    background-image: url("https://image.made-in-china.com/2f0j00bvVlhocJlYkC/Simple-Project-Restaurant-Dining-Hotel-Banquet-Wedding-Event-Wooden-Table.webp");
+    background-size: cover;
+}
+.pr3
+{
+    background-image: url("https://d3vlhkqyz4y38a.cloudfront.net/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/u/auction.png");
+    background-size: cover;
+}
+h1
+{
+    font-family: poppins;
+    text-transform: capitalize;
+    color: white;
+}
+a
+{
+    font-size: larger;
+    color: red;
+}
+.back3 h1
+{
+    line-height: 90px;
+}

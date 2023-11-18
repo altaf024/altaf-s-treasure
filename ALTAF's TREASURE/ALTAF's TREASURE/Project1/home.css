@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Caveat&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Pacifico&family=Poppins:wght@100;200;300&family=Rajdhani:wght@300&family=Roboto:wght@100&family=Satisfy&family=Shadows+Into+Light&family=Zeyada&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    height: 100vh;
+}
+/* navbar strats */
+nav
+{
+    width:100%;
+    height: 15vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+}
+nav img
+{
+    margin-right: auto;
+    cursor: pointer;
+    padding: 0px 50px;
+}
+
+nav ul li
+{
+    display: inline; 
+    margin-right:20px ;     
+}
+
+nav button
+{
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    font-size: large;
+}
+nav button:hover
+{
+    background-color: chocolate;
+    border-radius: 10px;
+    color: white;
+}
+.active
+{
+    background-color: chocolate;
+    border-radius: 10px; 
+    color: white;
+}
+nav ul
+{
+    margin-right: 300px;
+}
+
+/* navbar end  */
+
+/* content strats  */
+.content
+{
+    width:100%;
+    height: 85vh;
+    background-image: linear-gradient(-75deg,rgb(144, 130, 130),rgb(61, 94, 113),rgb(34, 69, 151));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h1
+{
+    font-size: 70px;
+    font-family: poppins;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: aliceblue;
+    user-select: none;
+}
+.content p
+{
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* content end  */
